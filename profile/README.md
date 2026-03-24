@@ -52,13 +52,13 @@
 
 ---
 ## 🎥 Movies APIs
-| API Name            | Method | Endpoint                 | Example URL                                             | Description                   | Auth |
-| ------------------- | ------ | ------------------------ | ------------------------------------------------------- | ----------------------------- | ---- |
-| Get All Movies      | GET    | `/movies/`               | `https://apis-z5tu.onrender.com/movies/`                | Retrieve all movies           | ❌ No |
-| Get Movie by ID     | GET    | `/movies/:id`            | `https://apis-z5tu.onrender.com/movies/123`             | Find movie by ID              | ❌ No |
-| Get Movie by Title  | GET    | `/movies/title/:title`   | `https://apis-z5tu.onrender.com/movies/title/inception` | Find movie by title           | ❌ No |
-| Get Movies by Year  | GET    | `/movies/year/:year`     | `https://apis-z5tu.onrender.com/movies/year/2011`       | Filter movies by release year | ❌ No |
-| Get Movies by Genre | GET    | `/movies/genere/:genere` | `https://apis-z5tu.onrender.com/movies/genere/romance`   | Filter movies by genre        | ❌ No |
+| API Name                | Method | Endpoint                 | Example URL                                             | Description                   | Auth |
+| ----------------------- | ------ | ------------------------ | ------------------------------------------------------- | ----------------------------- | ---- |
+| Get All Movies          | GET    | `/movies/`               | `https://apis-z5tu.onrender.com/movies/`                | Retrieve all movies           | ❌ No |
+| Get Movie by ID         | GET    | `/movies/:id`            | `https://apis-z5tu.onrender.com/movies/123`             | Find movie by ID              | ❌ No |
+| Get Movie by Title      | GET    | `/movies/title/:title`   | `https://apis-z5tu.onrender.com/movies/title/inception` | Find movie by title           | ❌ No |
+| Get Movies by Year      | GET    | `/movies/year/:year`     | `https://apis-z5tu.onrender.com/movies/year/2011`       | Filter movies by release year | ❌ No |
+| Get Movies by Genre     | GET    | `/movies/genere/:genere` | `https://apis-z5tu.onrender.com/movies/genere/romance`   | Filter movies by genre        | ❌ No |
 
 
 
