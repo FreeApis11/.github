@@ -45,6 +45,14 @@
 <td>✅ Yes</td>
 </tr>
 
+<tr>
+<td>User Profile</td>
+<td>Fetch single Salary</td>
+<td>JWT</td>
+<td>✅ Yes</td>
+<td>✅ Yes</td>
+</tr>
+
 </table>
 
 ---
