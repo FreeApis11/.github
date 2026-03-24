@@ -19,46 +19,23 @@
 
 
 ## 👤 Users APIs
- <table> <tr> <th>API</th> <th>Endpoint</th> <th>Usage</th> <th>Description</th> <th>Auth</th> <th>HTTPS</th> <th>CORS</th> </tr> <tr> <td>Users List</td> <td><code>GET /users/</code></td> <td><code>https://apis-z5tu.onrender.com/users/</code></td> <td>Get all users</td> <td>No</td> <td>✅ Yes</td> <td>✅ Yes</td> </tr> <tr> <td>User by ID</td> <td><code>GET /users/id/:id</code></td> <td><code>https://apis-z5tu.onrender.com/users/id/:1</code></td> <td>Fetch a single user by ID</td> <td>No</td> <td>✅ Yes</td> <td>✅ Yes</td> </tr> <tr> <td>Users by Salary</td> <td><code>GET /users/salary/:sal</code></td> <td><code>https://apis-z5tu.onrender.com/users/salary/:1000</code></td> <td>Fetch users by salary</td> <td>No</td> <td>✅ Yes</td> <td>✅ Yes</td> </tr> </table>
+| API Name       | Method | Endpoint                | Example URL                                        | Description               | Auth | HTTPS | CORS  |
+| -------------- | ------ | ----------------------- | -------------------------------------------------- | ------------------------- | ---- | ----- | ----- |
+| Get All Users  | GET    | `/users/`               | `https://apis-z5tu.onrender.com/users/`            | Retrieve all users        | ❌ No | ✅ Yes | ✅ Yes |
+| Get User by ID | GET    | `/users/id/:id`         | `https://apis-z5tu.onrender.com/users/id/1`        | Get a specific user by ID | ❌ No | ✅ Yes | ✅ Yes |
+| Get by Salary  | GET    | `/users/salary/:salary` | `https://apis-z5tu.onrender.com/users/salary/1000` | Filter users by salary    | ❌ No | ✅ Yes | ✅ Yes |
+
 
 ---
 
 ## 🐾 Animals APIs
+| API Name        | Method | Endpoint              | Example URL                                         | Description                | Auth | HTTPS | CORS  |
+| --------------- | ------ | --------------------- | --------------------------------------------------- | -------------------------- | ---- | ----- | ----- |
+| Get All Animals | GET    | `/animals/`           | `https://apis-z5tu.onrender.com/animals/`           | Retrieve all animals       | ❌ No | ✅ Yes | ✅ Yes |
+| Get by Name     | GET    | `/animals/name/:name` | `https://apis-z5tu.onrender.com/animals/name/lion`  | Find animal by name        | ❌ No | ✅ Yes | ✅ Yes |
+| Get by Category | GET    | `/animals/cat/:cat`   | `https://apis-z5tu.onrender.com/animals/cat/mammal` | Filter animals by category | ❌ No | ✅ Yes | ✅ Yes |
 
-<table>
-<tr>
-<th>API</th>
-<th>Description</th>
-<th>Auth</th>
-<th>HTTPS</th>
-<th>CORS</th>
-</tr>
 
-<tr>
-<td>Cat Facts</td>
-<td>Daily random cat facts</td>
-<td>No</td>
-<td>✅ Yes</td>
-<td>❌ No</td>
-</tr>
-
-<tr>
-<td>Dog Facts</td>
-<td>Random dog facts</td>
-<td>No</td>
-<td>✅ Yes</td>
-<td>✅ Yes</td>
-</tr>
-
-<tr>
-<td>Pets</td>
-<td>Adopt pets information</td>
-<td>API Key</td>
-<td>✅ Yes</td>
-<td>❌ No</td>
-</tr>
-
-</table>
 
 ---
 
