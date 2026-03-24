@@ -47,55 +47,10 @@
 | Get Post Comments by ID | GET    | `/posts/v/:id`  | `https://apis-z5tu.onrender.com/posts/v/123`       | Get comments for a specific post ID | ❌ No |
 
 
----
-
-## 🌦 Weather APIs
-
-<table>
-<tr>
-<th>API</th>
-<th>Description</th>
-<th>Auth</th>
-<th>HTTPS</th>
-<th>CORS</th>
-</tr>
-
-<tr>
-<td>Weather Now</td>
-<td>Current weather data</td>
-<td>API Key</td>
-<td>✅ Yes</td>
-<td>❌ No</td>
-</tr>
-
-</table>
+ 
+ 
 
 ---
 
-## 🎥 Media APIs
-
-<table>
-<tr>
-<th>API</th>
-<th>Description</th>
-<th>Auth</th>
-<th>HTTPS</th>
-<th>CORS</th>
-</tr>
-
-<tr>
-<td>Videos</td>
-<td>Get tutorial videos</td>
-<td>No</td>
-<td>✅ Yes</td>
-<td>✅ Yes</td>
-</tr>
-
-</table>
-
----
-
-## 🚀 Base URL
-
-```bash
+ 
 
