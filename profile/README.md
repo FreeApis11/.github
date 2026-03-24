@@ -1,5 +1,5 @@
 <h1 align="center">🚀 FreeAPI Hub</h1>
- <a href="https://github.com/FreeApis11/apis">start now<a/>
+ 
 <p align="center">
   Build anything. Pay nothing.
 </p>
