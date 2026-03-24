@@ -19,7 +19,7 @@
 
 
 ## 👤 Users APIs
- <table> <tr> <th>API</th> <th>Endpoint</th> <th>Usage</th> <th>Description</th> <th>Auth</th> <th>HTTPS</th> <th>CORS</th> </tr> <tr> <td>Users List</td> <td><code>GET /users/</code></td> <td><code>https://apis-z5tu.onrender.com/users/</code></td> <td>Get all users</td> <td>No</td> <td>✅ Yes</td> <td>✅ Yes</td> </tr> <tr> <td>User by ID</td> <td><code>GET /users/id/:id</code></td> <td><code>https://apis-z5tu.onrender.com/users/id/:id</code></td> <td>Fetch a single user by ID</td> <td>No</td> <td>✅ Yes</td> <td>✅ Yes</td> </tr> <tr> <td>Users by Salary</td> <td><code>GET /users/salary/:sal</code></td> <td><code>https://apis-z5tu.onrender.com/users/salary/:salary</code></td> <td>Fetch users by salary</td> <td>No</td> <td>✅ Yes</td> <td>✅ Yes</td> </tr> </table>
+ <table> <tr> <th>API</th> <th>Endpoint</th> <th>Usage</th> <th>Description</th> <th>Auth</th> <th>HTTPS</th> <th>CORS</th> </tr> <tr> <td>Users List</td> <td><code>GET /users/</code></td> <td><code>https://apis-z5tu.onrender.com/users/</code></td> <td>Get all users</td> <td>No</td> <td>✅ Yes</td> <td>✅ Yes</td> </tr> <tr> <td>User by ID</td> <td><code>GET /users/id/:id</code></td> <td><code>https://apis-z5tu.onrender.com/users/id/:1</code></td> <td>Fetch a single user by ID</td> <td>No</td> <td>✅ Yes</td> <td>✅ Yes</td> </tr> <tr> <td>Users by Salary</td> <td><code>GET /users/salary/:sal</code></td> <td><code>https://apis-z5tu.onrender.com/users/salary/:1000</code></td> <td>Fetch users by salary</td> <td>No</td> <td>✅ Yes</td> <td>✅ Yes</td> </tr> </table>
 
 ---
 
