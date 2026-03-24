@@ -16,6 +16,39 @@
 
 ---
 
+
+
+## 👤 Users APIs
+
+<table>
+<tr>
+<th>API</th>
+<th>Description</th>
+<th>Auth</th>
+<th>HTTPS</th>
+<th>CORS</th>
+</tr>
+
+<tr>
+<td>Users List</td>
+<td>Get all users</td>
+<td>No</td>
+<td>✅ Yes</td>
+<td>✅ Yes</td>
+</tr>
+
+<tr>
+<td>User Profile</td>
+<td>Fetch single user</td>
+<td>JWT</td>
+<td>✅ Yes</td>
+<td>✅ Yes</td>
+</tr>
+
+</table>
+
+---
+
 ## 🐾 Animals APIs
 
 <table>
@@ -49,37 +82,6 @@
 <td>API Key</td>
 <td>✅ Yes</td>
 <td>❌ No</td>
-</tr>
-
-</table>
-
----
-
-## 👤 Users APIs
-
-<table>
-<tr>
-<th>API</th>
-<th>Description</th>
-<th>Auth</th>
-<th>HTTPS</th>
-<th>CORS</th>
-</tr>
-
-<tr>
-<td>Users List</td>
-<td>Get all users</td>
-<td>No</td>
-<td>✅ Yes</td>
-<td>✅ Yes</td>
-</tr>
-
-<tr>
-<td>User Profile</td>
-<td>Fetch single user</td>
-<td>JWT</td>
-<td>✅ Yes</td>
-<td>✅ Yes</td>
 </tr>
 
 </table>
