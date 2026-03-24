@@ -40,32 +40,12 @@
 
 ## 📝 Posts APIs
 
-<table>
-<tr>
-<th>API</th>
-<th>Description</th>
-<th>Auth</th>
-<th>HTTPS</th>
-<th>CORS</th>
-</tr>
+| API Name                | Method | Endpoint        | Example URL                                        | Description                         | Auth |
+| ----------------------- | ------ | --------------- | -------------------------------------------------- | ----------------------------------- | ---- |
+| Get All Posts           | GET    | `/posts/`       | `https://apis-z5tu.onrender.com/posts/`            | Retrieve all posts                  | ❌ No |
+| Get Post by Title       | GET    | `/posts/:title` | `https://apis-z5tu.onrender.com/posts/how-to-code` | Find post by title                  | ❌ No |
+| Get Post Comments by ID | GET    | `/posts/v/:id`  | `https://apis-z5tu.onrender.com/posts/v/123`       | Get comments for a specific post ID | ❌ No |
 
-<tr>
-<td>Posts</td>
-<td>Get all posts</td>
-<td>No</td>
-<td>✅ Yes</td>
-<td>✅ Yes</td>
-</tr>
-
-<tr>
-<td>Create Post</td>
-<td>Create new post</td>
-<td>JWT</td>
-<td>✅ Yes</td>
-<td>✅ Yes</td>
-</tr>
-
-</table>
 
 ---
 
