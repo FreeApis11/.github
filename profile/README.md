@@ -16,8 +16,7 @@
 
 ---
 
-
-
+⚠️ If the API does not respond immediately after pasting the URL, please wait a few seconds—the connection should be established shortly.
 ## 👤 Users APIs
 | API Name       | Method | Endpoint                | Example URL                                        | Description               | Auth  |
 | -------------- | ------ | ----------------------- | -------------------------------------------------- | ------------------------- | ----  |
