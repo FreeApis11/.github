@@ -11,8 +11,7 @@
 - 🐾 Animals  
 - 👤 Users  
 - 📝 Posts  
-- 🌦 Weather  
-- 🎥 Media  
+- 🎥 Books  
 
 ---
 
